@@ -1,0 +1,128 @@
+/* What is even happening over here!!?*/
+
+
+@font-face {/*entirly missing the idea of addnig font*/
+	font-family: CrimsonSemiBold;
+	src: url('../fonts/Crimson-Semibold.otf');	
+}
+
+@font-face {
+	font-family: CrimsonRoman;
+	src: url('../fonts/Crimson-Roman.otf');	
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	color: #369;
+	text-decoration: none;
+/* had to look at this part because didn't get it*/
+
+header,
+section {
+	margin: 30px auto;
+	width: 825px;
+	display: block;
+}
+/*also this*/
+
+hr {/*not working no idea why*/
+	background: white url('../img/img-hr.png') no-repeat scroll 50% 50%;
+	clear: both;
+	border: 0;
+	height: 12px;
+}
+
+sup {
+	color: #999;
+	font-weight: normal;
+	font-size: 11px;
+}
+
+}
+/*nav bar*/
+nav {
+	width: 100%;
+	height: 48px;
+	font-family: sans-serif;
+}
+
+nav ul {
+	position: relative;
+	float: right;
+	margin: 14px 18px;
+	padding:10px 30px;
+}
+
+nav li {
+	display: inline;
+	margin: 0px 5px;
+	padding: 5px;
+	font-size: 12px;
+}
+
+.signin {
+	color: #18AFE0;
+}
+
+.signin:hover {
+	color: #369;
+}
+
+nav a:hover {
+	color: #18AFE0;
+}
+
+/*Header*/
+
+header {
+	clear: both;
+	height: 163px;
+	text-align: center;
+	padding: 6px 0;
+	margin: 0 262px;
+	font-family: "CrimsonSemiBold", serif;
+}
+
+header h1 {
+	font-size: 50px;
+	letter-spacing: -2px;
+	margin: 10px 0;
+	line-height: 1em;
+	color: #232323;
+}
+
+header h5 {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 1.5em;
+	margin: 10px 0;
+	color: #222;
+}
+
+/*products*/
+
+.products {
+	text-align: center;
+	height: 288px;
+	padding-bottom: 30px;
+	font-family: 'Lucida Grande', sans-serif;
+}
+
+.products a {
+	position: relative;
+	top: 40px;
+	left: 75px;
+	width: 160px;
+	margin: 15px 20px 5px;
+	float: left;
+	border: 1px solid #e8e8e8;
+	border-radius: 5px;
+	box-shadow: 0 0 5px #efefef;
+	padding: 20px 10px;
+	text-decoration: none;
+	font-family: 'Lucida Grande', sans-serif;
+}
